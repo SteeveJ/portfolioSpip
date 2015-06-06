@@ -1,0 +1,42 @@
+a:11:{s:9:"squelette";s:37:"html_b64d5626f90c8ab3fb7e1c691f8f25d7";s:6:"source";s:19:"squelettes/404.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"8/404-con-con-404-404%20No-28c54c2b";}s:7:"entetes";a:4:{s:23:"Http/1.0  404 Not Found";s:0:"";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2503:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+	<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+	<title>Erreur 404 - J-Steeve</title>
+	<?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/404.html','html_b64d5626f90c8ab3fb7e1c691f8f25d7','',13,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+	<meta name="robots" content="none" />
+</head>
+<body class="pas_surlignable page_404">
+<section id="home" class="module-image js-height-full">
+	<div class="intro">
+		<h1>Oups, Erreur 404 - <a href="http://localhost/portfolio/">Accueil J-Steeve</a></h1>
+	</div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="squelettes/js/bootstrap.min.js"></script>
+<script src="squelettes/js/jquery.magnific-popup.min.js"></script>
+<script src="squelettes/js/jquery.magnific-popup.min.js"></script>
+<script src="squelettes/js/jquery.parallax-1.1.3.js"></script>
+<script src="squelettes/js/imagesloaded.pkgd.js"></script>
+<script src="squelettes/js/jquery.shuffle.min.js"></script>
+<script src="squelettes/js/twitterFetcher_min.js"></script>
+<script src="squelettes/js/owl.carousel.min.js"></script>
+<script src="squelettes/js/jquery.fitvids.js"></script>
+<script src="squelettes/js/jquery.sticky.js"></script>
+
+<script src="squelettes/js/smoothscroll.js"></script>
+<script src="squelettes/js/wow.min.js"></script>
+
+
+
+<script src="squelettes/js/custom.js"></script>
+<script src="squelettes/js/custom-shuffle-init.js"></script>
+</body>
+</html>";s:5:"notes";s:0:"";s:8:"contexte";a:9:{s:4:"page";s:8:"contact/";s:11:"fond_erreur";s:8:"contact/";s:6:"status";s:3:"404";s:4:"code";s:13:"404 Not Found";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2015-06-06 02:00:18";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2015-06-06 02:00:18";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1433548818;s:2:"gz";b:0;}

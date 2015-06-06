@@ -1,0 +1,33 @@
+a:11:{s:9:"squelette";s:37:"html_4ed131d0bd055ed584319697995c41d8";s:6:"source";s:33:"squelettes-dist/inc-rss-item.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"4/inc-rss-item-3-fr--724d42a1583368";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:674:"
+	<item xml:lang="fr">
+		<title>Passionner par le web</title>
+		<link>http://localhost/portfolio/spip.php?article3</link>
+		<guid isPermaLink="true">http://localhost/portfolio/spip.php?article3</guid>
+		<dc:date>2015-06-04T19:44:08Z</dc:date>
+		<dc:format>text/html</dc:format>
+		<dc:language>fr</dc:language>
+		<dc:creator>Jerent Steeve</dc:creator>
+
+
+
+		<description>
+&lt;p&gt;Passionner par le web&lt;/p&gt;
+
+
+-
+&lt;a href="http://localhost/portfolio/spip.php?rubrique1" rel="directory"&gt;Portfolio&lt;/a&gt;
+
+
+		</description>
+
+
+ <content:encoded>&lt;div class='rss_texte'&gt;&lt;p&gt;Passionner par le web&lt;/p&gt;&lt;/div&gt;
+		
+		</content:encoded>
+
+
+		
+
+	</item>
+
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:10:"id_article";s:1:"3";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2015-06-04 23:53:07";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2015-06-04 23:53:07";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1433454787;s:2:"gz";b:0;}

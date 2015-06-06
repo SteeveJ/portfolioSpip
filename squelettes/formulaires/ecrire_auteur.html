@@ -1,0 +1,53 @@
+
+<section class="contact">
+
+	<div class="formulaire_spip formulaire_ecrire_auteur ajax" id="formulaire_ecrire_auteur#ENV{id}">
+	<br class='bugajaxie' />
+	[<p class="reponse_formulaire reponse_formulaire_ok">(#ENV*{message_ok})</p>]
+	[<p class="reponse_formulaire reponse_formulaire_erreur">(#ENV*{message_erreur})</p>]
+	[(#ENV{editable})
+	<form method='post' action='#ENV{action}#formulaire_ecrire_auteur#ENV{id}' enctype='multipart/form-data'>
+		[(#REM) declarer les hidden qui declencheront le service du formulaire parametre : url d'action ]
+		#ACTION_FORMULAIRE{#ENV{action}}
+		[(#REM) Previsualisation... ]
+		[(#ENV*{erreurs}|table_valeur{previsu}|oui)
+		<div class="previsu text-center">
+			<:previsualisation:>
+				<p>Your mail : #ENV{sujet_message_auteur} - #ENV{email_message_auteur}</p>
+				<p>Your message : [(#ENV{texte_message_auteur}|nl2br)]</p>
+			<p class="boutons"><input type="submit" class="submit" name="confirmer" value="<:form_prop_confirmer_envoi:>" /></p>
+		</div>
+		]
+		[(#REM) Sinon, formulaire normal ]
+
+		<:envoyer_message:> : </br>
+		<div class="form-group wow fadeInUp editer saisie_email_message_auteur obligatoire[ (#ENV*{erreurs}|table_valeur{email_message_auteur}|oui)erreur]">
+			<label class="sr-only" for="email_message_auteur#ENV{id}"><:entree_adresse_email:> <:info_obligatoire_02:></label>
+			[<span class="erreur_message">(#ENV*{erreurs}|table_valeur{email_message_auteur})</span>]
+			<input[ (#HTML5|?{required="required" type="email" class="text email form-control",type="text" class="text form-control"})] name="email_message_auteur" id="email_message_auteur#ENV{id}" value="#ENV{email_message_auteur}" size="30" />
+		</div>
+
+		<div class="form-group wow fadeInUp editer saisie_sujet_message_auteur obligatoire[ (#ENV*{erreurs}|table_valeur{sujet_message_auteur}|oui)erreur]" data-wow-delay=".1s">
+			<label class="sr-only" for="sujet_message_auteur#ENV{id}"><:form_prop_sujet:> <:info_obligatoire_02:></label>
+			[<span class="erreur_message">(#ENV*{erreurs}|table_valeur{sujet_message_auteur})</span>]
+			<input type="text" class="text form-control" name="sujet_message_auteur" id="sujet_message_auteur#ENV{id}" value="#ENV{sujet_message_auteur}" size="30"[(#HTML5) required="required"] />
+		</div>
+
+		<div class="form-group wow fadeInUp editer saisie_texte_message_auteur obligatoire[ (#ENV*{erreurs}|table_valeur{texte_message_auteur}|oui)erreur]" data-wow-delay=".2s">
+			<label class="sr-only" for="texte_message_auteur#ENV{id}"><:info_texte_message:> <:info_obligatoire_02:></label>
+			[<span class="erreur_message">(#ENV*{erreurs}|table_valeur{texte_message_auteur})</span>]
+			<textarea class="form-control" name="texte_message_auteur" id="texte_message_auteur#ENV{id}" rows="7" [(#HTML5) required="required"]>#ENV{texte_message_auteur}</textarea>
+		</div>
+
+
+		[(#REM) Piege a robots spammeurs ]
+		<p style="display: none;">
+			<label for="nobot"><:antispam_champ_vide:></label>
+			<input type="text" class="text" name="nobot" id="nobot" value="#ENV{nobot}" size="10" />
+		</p>
+		<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" name="valide" data-wow-delay=".3s"><:form_prop_envoyer:></button>
+	</form>
+	]
+	</div>
+
+</section>

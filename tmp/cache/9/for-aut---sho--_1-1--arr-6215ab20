@@ -1,0 +1,49 @@
+a:11:{s:9:"squelette";s:37:"html_94deec38170dc14170257aca24da82db";s:6:"source";s:41:"squelettes/formulaires/ecrire_auteur.html";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"9/for-aut---sho--_1-1--arr-6215ab20";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:5:"texte";s:2028:"
+<section class="contact">
+
+	<div class="formulaire_spip formulaire_ecrire_auteur ajax" id="formulaire_ecrire_auteur_1">
+	<br class='bugajaxie' />
+	
+	
+	 
+	<form method='post' action='/portfolio/spip.php?page=contact#formulaire_ecrire_auteur_1' enctype='multipart/form-data'>
+		
+		<div><input name="page" value="contact" type="hidden"
+/><input name='formulaire_action' type='hidden'
+		value='ecrire_auteur' /><input name='formulaire_action_args' type='hidden'
+		value='iy608Rcii/W7NtbawFyB1m3Jb2e1oK5vD7icNImlAVOyXNGAFErkOzdH9mTosqwkGhpTrX54dZdJmaagp6GwpjCvyCt6ph17v4u367Ym6p4zzMvgnqlK9bvtLRJby5U8vKFtrwcNBelBh9SU3yo=' /></div>
+		
+		
+
+		Envoyer un message : </br>
+		<div class="form-group wow fadeInUp editer saisie_email_message_auteur obligatoire">
+			<label class="sr-only" for="email_message_auteur_1">Votre adresse email  (obligatoire)</label>
+			
+			<input type="text" class="text form-control" name="email_message_auteur" id="email_message_auteur_1" value="shogundark49@gmail.com" size="30" />
+		</div>
+
+		<div class="form-group wow fadeInUp editer saisie_sujet_message_auteur obligatoire" data-wow-delay=".1s">
+			<label class="sr-only" for="sujet_message_auteur_1">Sujet  (obligatoire)</label>
+			
+			<input type="text" class="text form-control" name="sujet_message_auteur" id="sujet_message_auteur_1" value="" size="30" />
+		</div>
+
+		<div class="form-group wow fadeInUp editer saisie_texte_message_auteur obligatoire" data-wow-delay=".2s">
+			<label class="sr-only" for="texte_message_auteur_1">Texte de votre message  (obligatoire)</label>
+			
+			<textarea class="form-control" name="texte_message_auteur" id="texte_message_auteur_1" rows="7" ></textarea>
+		</div>
+
+
+		
+		<p style="display: none;">
+			<label for="nobot">Veuillez laisser ce champ vide :</label>
+			<input type="text" class="text" name="nobot" id="nobot" value="" size="10" />
+		</p>
+		<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" name="valide" data-wow-delay=".3s">Envoyer un message</button>
+	</form>
+	
+	</div>
+
+</section>
+";s:5:"notes";s:0:"";s:8:"contexte";a:18:{s:20:"sujet_message_auteur";s:0:"";s:20:"texte_message_auteur";s:0:"";s:20:"email_message_auteur";s:22:"shogundark49@gmail.com";s:5:"nobot";s:0:"";s:2:"id";s:2:"_1";s:9:"id_auteur";s:1:"1";s:10:"id_article";s:0:"";s:10:"_pipelines";a:1:{s:15:"formulaire_fond";a:3:{s:4:"form";s:13:"ecrire_auteur";s:4:"args";a:3:{i:0;s:1:"1";i:1;s:0:"";i:2;s:23:"jerent.steeve@gmail.com";}s:13:"je_suis_poste";b:0;}}s:15:"formulaire_args";s:148:"iy608Rcii/W7NtbawFyB1m3Jb2e1oK5vD7icNImlAVOyXNGAFErkOzdH9mTosqwkGhpTrX54dZdJmaagp6GwpjCvyCt6ph17v4u367Ym6p4zzMvgnqlK9bvtLRJby5U8vKFtrwcNBelBh9SU3yo=";s:7:"erreurs";a:0:{}s:6:"action";s:32:"/portfolio/spip.php?page=contact";s:4:"form";s:13:"ecrire_auteur";s:8:"editable";s:1:" ";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2015-06-06 03:14:01";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2015-06-06 03:14:01";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1433553241;s:2:"gz";b:0;}

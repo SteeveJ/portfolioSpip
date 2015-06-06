@@ -1,0 +1,43 @@
+a:11:{s:9:"squelette";s:37:"html_a78009d7f836aaa2ee1b36d990dd5152";s:6:"source";s:28:"squelettes-dist/backend.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"9/bac-bac--8a6f70d69a99da4a257e0308";}s:7:"entetes";a:2:{s:12:"Content-Type";s:23:"text/xml; charset=utf-8";s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:1293:"<?xml 
+version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+
+<channel xml:lang="fr">
+	<title>Mon site SPIP</title>
+	<link>http://localhost/portfolio/</link>
+	<description></description>
+	<language>fr</language>
+	<generator>SPIP - www.spip.net</generator>
+
+	<image>
+		<title>Mon site SPIP</title>
+		<url>http://localhost/portfolio/IMG/siteon0.png</url>
+		<link>http://localhost/portfolio/</link>
+		<height>144</height>
+		<width>144</width>
+	</image>
+
+
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '3',
+	'lang' => 'fr'), array("compil"=>array('squelettes-dist/backend.html','html_a78009d7f836aaa2ee1b36d990dd5152','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '2',
+	'lang' => 'fr'), array("compil"=>array('squelettes-dist/backend.html','html_a78009d7f836aaa2ee1b36d990dd5152','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+<?php echo recuperer_fond( 'inc-rss-item', array('id_article' => '1',
+	'lang' => 'fr'), array("compil"=>array('squelettes-dist/backend.html','html_a78009d7f836aaa2ee1b36d990dd5152','',25,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+
+
+
+
+</channel>
+
+</rss>
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:4:"page";s:7:"backend";s:4:"date";s:19:"2015-06-04 23:53:07";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2015-06-04 23:53:07";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1433454787;s:2:"gz";b:0;}

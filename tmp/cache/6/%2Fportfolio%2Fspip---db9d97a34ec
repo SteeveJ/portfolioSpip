@@ -1,0 +1,453 @@
+a:11:{s:9:"squelette";s:37:"html_9619b9738af3f9f47eca3349482c6419";s:6:"source";s:24:"squelettes/sommaire.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"6/%2Fportfolio%2Fspip---db9d97a34ec";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:13043:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" class="ltr fr no-js"> <!--<![endif]-->
+<head>
+<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+<title>J-Steeve</title>
+
+<?php echo recuperer_fond( 'inclure/head', array('lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_9619b9738af3f9f47eca3349482c6419','',11,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</head>
+
+<body class="pas_surlignable page_sommaire">
+	<!--<?php echo recuperer_fond( 'inclure/header', array('home' => 'oui',
+	'lang' => 'fr'), array("compil"=>array('squelettes/sommaire.html','html_9619b9738af3f9f47eca3349482c6419','',15,$GLOBALS['spip_lang'])), _request("connect"));
+?>-->
+	<!--<?php echo recuperer_fond( 'inclure/nav', array_merge(array (
+  'contact' => '',
+  'date' => '2015-06-06 01:43:33',
+  'date_default' => true,
+  'date_redac' => '2015-06-06 01:43:33',
+  'date_redac_default' => true,
+),array('lang' => 'fr')), array("compil"=>array('squelettes/sommaire.html','html_9619b9738af3f9f47eca3349482c6419','',16,$GLOBALS['spip_lang'])), _request("connect"));
+?>-->
+	<!-- Preloader -->
+
+	<div id="preloader">
+		<div id="status">
+			<div class="status-mes"></div>
+		</div>
+	</div>
+
+	<!-- Home start -->
+
+	<section id="home" class="module-image js-height-full">
+
+		<div class="intro">
+			
+				
+					<div class="hello">Je m'appelle Jerent Steeve</div>
+				
+				<h1>Je suis actuellement un étudiant à l&#8217;institut de l&#8217;internet et du multimédia</h1>
+				<div class="who-creates"><p>Je ne suis pas très front-end plutôt back-office.</p></div>
+			
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="http://localhost/portfolio/">J-Steeve</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						
+							
+								<li><a href="#home">Home</a></li>
+							
+								<li><a href="#portfolio">Portfolio</a></li>
+							
+								<li><a href="#services">Services</a></li>
+							
+								<li><a href="#about">About</a></li>
+							
+						
+						<li><a href="spip.php?page=contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="module paddingb-none">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header wow fadeInUp">
+						
+							<h2 class="module-title">Portfolio</h2>
+							<div class="module-line"></div>
+							<div class="module-subtitle">
+								<p>Voici mes travaux réalisés en cours je n&#8217;en possède pas vraiment pour le moment et ils ne sont pas top mais au lieu de les cachés au fin fond de mon serveur je les partages pour que vous puissiez en juger par vous même.</p>
+							</div>
+							<div class="module-line"></div>
+						
+
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<!-- Portfolio Filter start-->
+
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul id="filter">
+						<li data-group="all">All</li>
+						
+							
+								<li data-group="wordpress">Wordpress</li>
+							
+								<li data-group="symfony">Symfony</li>
+							
+						
+					</ul>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<!-- Portfolio Filter end -->
+
+		</div><!-- .contaier -->
+
+		<ul class="portfolio-items-container">
+			
+				
+					
+						<li class="portfolio-item" data-groups="all wordpress">
+							<figure>
+								<img class="spip_logos" alt="" src="IMG/arton1.png?1433422723" width="533" height="322" />
+								<figcaption>
+									<a href="portfolio/slideshow.html" class="simple-ajax-popup"></a>
+									<div class="caption-inner">
+										<h3 class="portfolio-item-title">One Direction</h3>
+										<div class="portfolio-item-desc">...</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+					
+				
+					
+						<li class="portfolio-item" data-groups="all symfony">
+							<figure>
+								<img class="spip_logos" alt="" src="IMG/arton2.png?1433425411" width="533" height="322" />
+								<figcaption>
+									<a href="portfolio/slideshow.html" class="simple-ajax-popup"></a>
+									<div class="caption-inner">
+										<h3 class="portfolio-item-title">Blog Symfony</h3>
+										<div class="portfolio-item-desc">...</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+					
+				
+			
+		</ul><!-- .projects-container -->
+
+	</section>
+
+	<!-- Portfolio end -->
+
+	<!-- Callout start -->
+
+	<section class="callout">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-8 col-lg-6 col-lg-offset-2">
+					<h2>ARE YOU READY TO START?</h2>
+					<div class="callout-decription">
+						Je suis disponible pour du travail en freelance.
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-2 callout-btn">
+					<a href="spip.php?page=contact" class="btn btn-lg btn-block btn-custom-1">Contacter moi</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Callout end -->
+
+	<!-- Services start -->
+
+	<section id="services" class="module module-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header wow fadeInUp">
+						<h2 class="module-title">Services</h2>
+						<div class="module-line"></div>
+						<div class="module-subtitle">
+							He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+						</div>
+						<div class="module-line"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+				
+					
+						<div class="col-sm-3">
+							<div class="iconbox wow bounceIn">
+								<div class="iconbox-icon">
+									<span class="..."></span>
+								</div>
+								<div class="iconbox-text">
+									<h3 class="iconbox-title">Création de site web</h3>
+									<div class="iconbox-desc">
+										<p>Pourquoi ne pas avoir votre propre site et faire en sorte que votre image ou que le message que vous essayer de faire passé puissent être vue/lue sur le web&nbsp;?<br class='autobr' />
+Conception d’un site web de A à Z, selon votre besoin.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="col-sm-3">
+							<div class="iconbox wow bounceIn">
+								<div class="iconbox-icon">
+									<span class="..."></span>
+								</div>
+								<div class="iconbox-text">
+									<h3 class="iconbox-title">Refonte Graphique - Site Web</h3>
+									<div class="iconbox-desc">
+										<p>Pourquoi ne pas refaire le design de votre site&nbsp;?<br class='autobr' />
+Faite une refonte graphique de votre site, selon votre besoin.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="col-sm-3">
+							<div class="iconbox wow bounceIn">
+								<div class="iconbox-icon">
+									<span class="..."></span>
+								</div>
+								<div class="iconbox-text">
+									<h3 class="iconbox-title">Réferencement Naturel</h3>
+									<div class="iconbox-desc">
+										<p>Vous chercher à remonter dans le référencement de Google&nbsp;?<br class='autobr' />
+Utilisation du SEO (ou référencement naturel) pour faire remonter dans le classement des moteur de recherche.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="col-sm-3">
+							<div class="iconbox wow bounceIn">
+								<div class="iconbox-icon">
+									<span class="..."></span>
+								</div>
+								<div class="iconbox-text">
+									<h3 class="iconbox-title">Application Mobile (Android)</h3>
+									<div class="iconbox-desc">
+										<p>Conception d’application mobile Natif ou webApp. Je n’ai pas encore travailler sur les applications Hybride qui son à la fois natif et une webApp.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+				
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Services end -->
+
+	<!-- About start -->
+
+	<section id="about">
+
+		<div class="row position-relative margin-0">
+
+			<div class="col-xs-12 col-md-6 side-image"></div>
+
+			<div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+
+				<div class="row">
+
+					<div class="col-sm-12">
+
+						<div class="module-header module-header-left wow fadeInUp">
+							<h2 class="module-title">About me</h2>
+							<div class="module-subtitle">
+								He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+							</div>
+							<div class="module-line"></div>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp">
+							<div class="iconboxleft-icon">
+								<span class="icon-camera"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Photographer</h3>
+								<div class="iconboxleft-desc">
+									Thus, then, one of our own noble stamp, even a whaleman, is the tutelary guardian of England.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
+							<div class="iconboxleft-icon">
+								<span class="icon-earphones"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Music</h3>
+								<div class="iconboxleft-desc">
+									Thus, then, one of our own noble stamp, even a whaleman, is the tutelary guardian of England.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp">
+							<div class="iconboxleft-icon">
+								<span class="icon-ghost"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Ghosts</h3>
+								<div class="iconboxleft-desc">
+									Thus, then, one of our own noble stamp, even a whaleman, is the tutelary guardian of England.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
+							<div class="iconboxleft-icon">
+								<span class="icon-magic-wand"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Magic</h3>
+								<div class="iconboxleft-desc">
+									Thus, then, one of our own noble stamp, even a whaleman, is the tutelary guardian of England.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- col-xs-12 -->
+
+		</div><!-- .row -->
+	</section>
+
+	<!-- About end -->
+
+	<!-- Twitter start -->
+
+	<section id="twitter" class="module module-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header wow fadeInUp">
+						<div class="module-icon"><span class="icon-social-twitter"></span></div>
+					</div>
+
+					<div class="testimonials owl-carousel wow fadeInUp"></div>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Twitter end -->
+
+	<!-- Google Map start-->
+
+	<section id="map-section">
+
+		<div id="map"></div>
+
+	</section>
+
+	<!-- Google Map end -->
+
+
+	<?php echo recuperer_fond( 'inclure/footer', array_merge(array (
+  'contact' => '',
+  'date' => '2015-06-06 01:43:33',
+  'date_default' => true,
+  'date_redac' => '2015-06-06 01:43:33',
+  'date_redac_default' => true,
+),array('self' => 'spip.php?contact',
+	'lang' => 'fr')), array("compil"=>array('squelettes/sommaire.html','html_9619b9738af3f9f47eca3349482c6419','',365,$GLOBALS['spip_lang'])), _request("connect"));
+?>
+</body>
+</html>
+";s:5:"notes";s:0:"";s:8:"contexte";a:5:{s:7:"contact";s:0:"";s:4:"date";s:19:"2015-06-06 01:43:33";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2015-06-06 01:43:33";s:18:"date_redac_default";b:1;}s:12:"lastmodified";i:1433547814;s:2:"gz";b:0;}

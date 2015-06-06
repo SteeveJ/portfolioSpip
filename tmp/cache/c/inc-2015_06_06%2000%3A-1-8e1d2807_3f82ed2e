@@ -1,0 +1,69 @@
+a:11:{s:9:"squelette";s:37:"html_f3b2253f9f504241925b32595753edb4";s:6:"source";s:30:"squelettes/inclure/footer.html";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:2:{s:5:"cache";s:35:"c/inc-2015_06_06%2000%3A-1-8e1d2807";s:7:"session";s:8:"3f82ed2e";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:86400;}s:5:"duree";i:0;s:5:"texte";s:2701:"<!-- Footer start -->
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-12">
+
+				<ul class="social-links">
+					<li><a href="#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+				</ul>
+
+				<p class="copyright">
+					© 2015 J-Steeve.
+					<br /><a rel="contents" href="spip.php?page=plan">Plan du site</a>
+					 | <a href="ecrire/">Espace privé</a>
+					  | <a href="<?php 
+include_once("./" . _DIR_RACINE . "ecrire/balise/url_logout.php");
+if ($lang_select = "fr") $lang_select = lang_select($lang_select);
+inserer_balise_dynamique(balise_URL_LOGOUT_dyn(''), array('squelettes/inclure/footer.html', 'html_f3b2253f9f504241925b32595753edb4', '', 21, 'fr'));
+if ($lang_select) lang_select();
+?>" rel="nofollow">Se déconnecter</a> |
+					<a rel="nofollow" href="spip.php?page=contact">Contact</a>
+				</p>
+
+			</div>
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+</footer>
+
+<!-- Footer end -->
+
+<!-- Scroll-up -->
+
+<div class="scroll-up">
+	<a href="#home"><i class="fa fa-angle-double-up"></i></a>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="squelettes/js/bootstrap.min.js"></script>
+<script src="squelettes/js/jquery.magnific-popup.min.js"></script>
+<script src="squelettes/js/jquery.magnific-popup.min.js"></script>
+<script src="squelettes/js/jquery.parallax-1.1.3.js"></script>
+<script src="squelettes/js/imagesloaded.pkgd.js"></script>
+<script src="squelettes/js/jquery.shuffle.min.js"></script>
+<script src="squelettes/js/twitterFetcher_min.js"></script>
+<script src="squelettes/js/owl.carousel.min.js"></script>
+<script src="squelettes/js/jquery.fitvids.js"></script>
+<script src="squelettes/js/jquery.sticky.js"></script>
+
+<script src="squelettes/js/smoothscroll.js"></script>
+<script src="squelettes/js/wow.min.js"></script>
+
+
+
+<script src="squelettes/js/custom.js"></script>
+<script src="squelettes/js/custom-shuffle-init.js"></script>
+
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="squelettes/js/gmaps.js"></script>
+";s:5:"notes";s:0:"";s:8:"contexte";a:6:{s:4:"date";s:19:"2015-06-06 00:40:56";s:12:"date_default";b:1;s:10:"date_redac";s:19:"2015-06-06 00:40:56";s:18:"date_redac_default";b:1;s:4:"self";s:2:"./";s:4:"lang";s:2:"fr";}s:12:"lastmodified";i:1433544056;s:2:"gz";b:0;}
